@@ -1,0 +1,16 @@
+<div class="container">
+    <h1>Gif Search</h1>
+    <div class="search">
+        <input type="text" placeholder="What are you looking for?" #gif (keyup.enter)="search(gif.value)">
+        <select >
+            <option value="" selected hidden>Show All &#xf0d7;</option>
+            <option>All</option>
+            <option>Top Rated</option>
+            <option>Most Relevant</option>
+            <option>Newest</option>        
+        </select>
+        <button class="fa fa-search" aria-hidden="true"></button>
+    </div>    
+    <h4>You can search any gif with our search</h4>
+    <h6>Everything you need for your creative projects, websites, banners, presentations, magazines and advertising</h6>
+</div>

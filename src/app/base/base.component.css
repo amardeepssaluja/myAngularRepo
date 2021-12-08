@@ -1,0 +1,80 @@
+.container-1{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 100%;
+    margin: 20px auto;  
+    background-color: #303030;  
+    color: white;
+    padding: 40px;
+}
+input{
+    width: 60%;
+    height: 45px;
+    background-color: #303030; 
+    border: 1px rgba(211, 211, 211, 0.63) solid;
+    border-radius: 5px;
+   
+}
+::placeholder {  
+    color: rgba(211, 211, 211, 0.63);
+    padding-left: 9px;
+}
+button{
+    margin-top: 18px;
+    width: 62%;
+    height: 45px;    
+    border-radius: 5px;
+    background-color: #24A0ED;
+    border-style: none;
+    color: white;
+    font-size: 16px;
+    cursor:pointer;
+}
+ul{
+    margin-left: -20%;
+    list-style-type:none;
+    font-size: 10px;
+    color: rgba(211, 211, 211, 0.63);
+}
+.list{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+li{
+    margin-bottom: 10px;;
+}
+.child-3 h4{
+    color: rgba(34, 32, 32, 0.514);
+    margin: 30px 30px;    
+    text-decoration: none;
+}
+.copy{
+    color: rgba(34, 32, 32, 0.514);
+    margin-left:30px;
+    margin-top: -15px;
+    font-size: 10px;
+}
+.container-2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.child-4{
+    margin: 30px 30px;
+    padding-left: 25%;
+}
+
+i{    
+    border: 1px rgba(34, 32, 32, 0.514) solid;
+    border-radius: 50%;
+    padding: 7px;
+    margin-right: 7px;
+    color: rgba(34, 32, 32, 0.514);
+}
+.fa-facebook{
+    padding: 7px 9px;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: rgba(211, 211, 211, 0.63);
+    cursor: pointer;
+}
