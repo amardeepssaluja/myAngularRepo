@@ -41,6 +41,7 @@ select{
     border-collapse: collapse;
     border-radius: 0px 6px 6px 0px;
     border-style: none;
+    cursor: pointer;
 }
 ::placeholder {  
     opacity: .35;
